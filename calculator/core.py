@@ -1,17 +1,17 @@
-def tambah(a: float, b: float) -> float:
+def add(a: float, b: float) -> float:
     return a + b
 
 
-def kurang(a: float, b: float) -> float:
+def subtract(a: float, b: float) -> float:
     return a - b
 
 
-def kali(a: float, b: float) -> float:
+def multiply(a: float, b: float) -> float:
     return a * b
 
 
-def bagi(a: float, b: float) -> float:
+def divide(a: float, b: float) -> float:
     if b == 0:
-        raise ValueError("tidak bisa bagi nol")
+        raise ValueError("cannot divide by zero")
     return a / b
 

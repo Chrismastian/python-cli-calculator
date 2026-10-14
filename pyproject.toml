@@ -1,7 +1,7 @@
 [project]
 name = "python-cli-calculator"
 version = "0.1.0"
-description = "Kalkulator CLI sederhana untuk belajar Python"
+description = "A simple CLI calculator built while learning Python"
 requires-python = ">=3.11"
 
 [tool.pytest.ini_options]
